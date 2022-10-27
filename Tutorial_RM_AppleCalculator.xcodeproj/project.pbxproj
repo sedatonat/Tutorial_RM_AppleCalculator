@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3C1D30F290A86EC0066C530 /* Tutorial_RM_AppleCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1D30E290A86EC0066C530 /* Tutorial_RM_AppleCalculatorApp.swift */; };
-		E3C1D311290A86EC0066C530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1D310290A86EC0066C530 /* ContentView.swift */; };
+		E3C1D30F290A86EC0066C530 /* AppleCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1D30E290A86EC0066C530 /* AppleCalculatorApp.swift */; };
 		E3C1D313290A86ED0066C530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C1D312290A86ED0066C530 /* Assets.xcassets */; };
 		E3C1D316290A86ED0066C530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C1D315290A86ED0066C530 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3C1D30B290A86EC0066C530 /* Tutorial_RM_AppleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial_RM_AppleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C1D30E290A86EC0066C530 /* Tutorial_RM_AppleCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_RM_AppleCalculatorApp.swift; sourceTree = "<group>"; };
-		E3C1D310290A86EC0066C530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3C1D30E290A86EC0066C530 /* AppleCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCalculatorApp.swift; sourceTree = "<group>"; };
 		E3C1D312290A86ED0066C530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C1D315290A86ED0066C530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +49,13 @@
 		E3C1D30D290A86EC0066C530 /* Tutorial_RM_AppleCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				E3C1D30E290A86EC0066C530 /* Tutorial_RM_AppleCalculatorApp.swift */,
-				E3C1D310290A86EC0066C530 /* ContentView.swift */,
+				E3C1D31C290A89A60066C530 /* 0-) App */,
+				E3C1D322290A8AB40066C530 /* 1-) Resource */,
+				E3C1D31D290A8A320066C530 /* 2-) Source */,
+				E3C1D31E290A8A6D0066C530 /* 3-) Interface */,
+				E3C1D31F290A8A850066C530 /* 4-) Test */,
+				E3C1D320290A8A8E0066C530 /* 5-) Documentation */,
+				E3C1D321290A8AA10066C530 /* 6-) Support */,
 				E3C1D312290A86ED0066C530 /* Assets.xcassets */,
 				E3C1D314290A86ED0066C530 /* Preview Content */,
 			);
@@ -65,6 +68,56 @@
 				E3C1D315290A86ED0066C530 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3C1D31C290A89A60066C530 /* 0-) App */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1D30E290A86EC0066C530 /* AppleCalculatorApp.swift */,
+			);
+			path = "0-) App";
+			sourceTree = "<group>";
+		};
+		E3C1D31D290A8A320066C530 /* 2-) Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2-) Source";
+			sourceTree = "<group>";
+		};
+		E3C1D31E290A8A6D0066C530 /* 3-) Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3-) Interface";
+			sourceTree = "<group>";
+		};
+		E3C1D31F290A8A850066C530 /* 4-) Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4-) Test";
+			sourceTree = "<group>";
+		};
+		E3C1D320290A8A8E0066C530 /* 5-) Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5-) Documentation";
+			sourceTree = "<group>";
+		};
+		E3C1D321290A8AA10066C530 /* 6-) Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6-) Support";
+			sourceTree = "<group>";
+		};
+		E3C1D322290A8AB40066C530 /* 1-) Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1-) Resource";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C1D311290A86EC0066C530 /* ContentView.swift in Sources */,
-				E3C1D30F290A86EC0066C530 /* Tutorial_RM_AppleCalculatorApp.swift in Sources */,
+				E3C1D30F290A86EC0066C530 /* AppleCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
