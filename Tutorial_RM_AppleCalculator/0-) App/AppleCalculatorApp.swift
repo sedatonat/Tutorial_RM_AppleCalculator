@@ -5,6 +5,7 @@
 //  Created by Sedat Onat on 27.10.2022.
 //
 
+// Tutorial from Ricardo Montemayor (https://betterprogramming.pub/build-the-apple-calculator-in-swiftui-2fad61285dc8)
 
 
 import SwiftUI
